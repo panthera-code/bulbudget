@@ -1,0 +1,67 @@
+:root {
+    --main-color: #ff8000;
+    --title-font: "PT Sans", sans-serif;
+    --main-font: "Montserrat", sans-serif;
+    --input-font: "Prompt", sans-serif;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+#root {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#root {
+    font-family: var(--main-font);
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-family: var(--title-font);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul {
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    list-style-type: none;
+}
+
+li {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a {
+    display: inline-block;
+    width: 100%;
+    padding: 0.25em 0.5em;
+}
+
+li a:hover {
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.25em;
+}
