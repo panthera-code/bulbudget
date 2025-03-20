@@ -35,6 +35,23 @@ body {
     text-align: justify;
 }
 
+.content ul {
+    padding: 0 0 0 1em;
+    border-radius: 0;
+    box-shadow: none;
+    list-style-type: disc;
+}
+
+.content li {
+    padding: 0 1em;
+    text-align: justify;
+}
+
+li a {
+    display: inline;
+    padding: 0;
+}
+
 .email-header {
     margin-top: 2em;
     text-align: center;
@@ -106,4 +123,8 @@ button:hover {
     margin-top: 0.25em;
     font-weight: bold;
     color: #fff;
+}
+
+.margin-bottom {
+    margin-bottom: 1em;
 }

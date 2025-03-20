@@ -6,10 +6,13 @@ export default function EmailPage() {
         <>
             <h1>Modèles des emails</h1>
             <ul>
-                <li><Link to="/email/inscription">Email d'inscription</Link></li>
-                <li><Link to="/email/confirmation">Email de confirmation de validation</Link></li>
-                <li><Link to="/email/resetPassword">Email de réinitialisation de mot de passe</Link></li>
-                <li><Link to="/email/updatePassword">Email de modification du mot de passe</Link></li>
+                <li><Link to="/email/inscription">Inscription</Link></li>
+                <li><Link to="/email/confirmation">Confirmation d'inscription</Link></li>
+                <li><Link to="/email/resetPassword">Réinitialisation du mot de passe</Link></li>
+                <li><Link to="/email/updatePassword">Modification du mot de passe</Link></li>
+                <li><Link to="/email/desactivate">Désactivation du compte par l'utilisateur</Link></li>
+                <li><Link to="/email/admin">Désactivation du compte par un administrateur</Link></li>
+                <li><Link to="/email/security">Sécurisation du compte</Link></li>
             </ul>
         </>
     )

@@ -13,8 +13,13 @@ export default function App() {
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
       <Route path='/email' element={<EmailPage />} />
-      <Route path='/email/inscription' element={<Email type={'inscription'}/>} />
-      <Route path='/email/confirmation' element={<Email type={'confirmation'}/>} />
+      <Route path='/email/inscription' element={<Email type={'inscription'} name={'Panthera Code'} />} />
+      <Route path='/email/confirmation' element={<Email type={'confirmation'} name={'Panthera Code'} />} />
+      <Route path='/email/resetPassword' element={<Email type={'resetPassword'} name={'Panthera Code'} />} />
+      <Route path='/email/updatePassword' element={<Email type={'updatePassword'} name={'Panthera Code'} />} />
+      <Route path='/email/desactivate' element={<Email type={'desactivate'} name={'Panthera Code'} />} />
+      <Route path='/email/admin' element={<Email type={'admin'} name={'Panthera Code'} />} />
+      <Route path='/email/security' element={<Email type={'security'} name={'Panthera Code'} />} />
     </Routes>
   )
 
